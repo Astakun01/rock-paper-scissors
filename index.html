@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- game name heading -->
+    <h1>Rock Paper Scissor</h1>
+    <!-- game choices -->
+    <main>
+      <!-- left side user choice -->
+      <div class="left-container">
+        <div class="user-choices leftchoice">
+          <div class="choice" id="rock">
+            <img src="rock.png" alt="" />
+          </div>
+          <div class="choice" id="paper">
+            <img src="paper (1).png" alt="" />
+          </div>
+          <div class="choice" id="scissor">
+            <img src="scissors.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <!-- mid container for showing winner and score -->
+      <div class="mid-container">
+        <div class="resultimg">
+          <!-- user and computer choice img -->
+          <div class="userchoiceimg">
+            <img id="img-left" src="" alt="" />
+          </div>
+          <div class="comuterchoiceimg">
+            <img id="img-right" src="" alt="" />
+          </div>
+        </div>
+        <div class="msg-container">
+          <p id="msg">Play your Game</p>
+        </div>
+        <!-- score borad -->
+        <div class="score-board">
+          <div class="userscore">
+            <p id="user-score">0</p>
+            <p>you</p>
+          </div>
+          <div class="comscore">
+            <p id="com-score">0</p>
+            <p>Bot</p>
+          </div>
+        </div>
+      </div>
+      <!-- right container for computer choice -->
+      <div class="right-container">
+        <div class="com-choices rightchoice">
+          <div class="choice" id="rock">
+            <img src="rock.png" alt="" />
+          </div>
+          <div class="choice" id="paper">
+            <img src="paper (1).png" alt="" />
+          </div>
+          <div class="choice" id="secissor">
+            <img src="scissors.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
