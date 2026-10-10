@@ -1,68 +1,72 @@
 # 🪨 Rock Paper Scissors Game
 
-A simple and interactive **Rock Paper Scissors** game built using **HTML, CSS, and JavaScript**.
+A simple, interactive, and browser-based Rock Paper Scissors game built using HTML, CSS, and JavaScript. Play against the computer, test your luck, and track your score in real time.
 
-This project was created while learning JavaScript fundamentals and practicing concepts such as DOM manipulation, event handling, functions, conditional logic, random number generation, and dynamic UI updates.
+## 🚀 Live Demo
 
-## 🎮 Features
+🎮 **Play the Game:**  
+https://rock-paper-scissors-theta-olive.vercel.app/
 
-- 🪨 Rock, 📄 Paper, and ✂️ Scissors choices
-- 🤖 Random computer choice
+## 📸 About the Project
+
+This project was created to practice JavaScript fundamentals and build an interactive web application. It includes computer-generated choices, automatic winner detection, score tracking, and dynamic UI updates.
+
+## ✨ Features
+
+- 🪨 Rock, Paper, and Scissors selections
+- 🤖 Random computer opponent
 - 🏆 Automatic winner detection
-- 📊 Live score tracking
+- 📊 Score tracking
 - 🎯 Win, lose, and draw results
-- 🔄 Automatic game reset after each round
+- 🔄 Automatic reset after each round
 - ✨ Animated choice indicator
 - 🎨 Interactive hover effects
 - 📱 Simple and clean user interface
 
 ## 🛠️ Technologies Used
 
-- **HTML5** – Structure of the game
-- **CSS3** – Styling, layout, animations, and effects
-- **JavaScript** – Game logic, DOM manipulation, event handling, and score management
+| Technology | Purpose |
+|---|---|
+| HTML5 | Website structure |
+| CSS3 | Styling, layout, and animations |
+| JavaScript | Game logic and interactivity |
 
 ## 🧠 JavaScript Concepts Practiced
 
-This project helped me practice:
-
 - Variables and functions
-- `if / else` conditional statements
-- Arrays
-- Objects
-- `Math.random()`
-- `Math.floor()`
+- Conditional statements (`if/else`)
+- Arrays and objects
+- Random number generation using `Math.random()` and `Math.floor()`
 - DOM selection and manipulation
 - Event listeners
-- `setInterval()`
-- `setTimeout()`
+- `setInterval()` and `setTimeout()`
 - Dynamic image and text updates
 - Score management
 
-## 🎯 How the Game Works
+## 🎮 How to Play
 
-1. Select **Rock**, **Paper**, or **Scissors**.
-2. The computer randomly selects one of the three choices.
-3. The game compares both choices.
-4. The winner is displayed on the screen.
-5. The score is updated automatically.
-6. After a short delay, the game resets and you can play again.
+1. Open the live demo.
+2. Choose Rock, Paper, or Scissors.
+3. The computer randomly selects its move.
+4. The game compares both choices.
+5. The winner is displayed automatically.
+6. The score updates based on the result.
+7. Play another round and try to beat the computer!
 
-### Game Rules
+## 📋 Game Rules
 
-| Player      | Computer    | Result        |
-| ----------- | ----------- | ------------- |
-| Rock        | Scissors    | You Win       |
-| Paper       | Rock        | You Win       |
-| Scissors    | Paper       | You Win       |
-| Same Choice | Same Choice | Draw          |
-| Otherwise   | —           | Computer Wins |
+| Your Choice | Computer's Choice | Result |
+|---|---|---|
+| Rock | Scissors | You Win |
+| Paper | Rock | You Win |
+| Scissors | Paper | You Win |
+| Same Choice | Same Choice | Draw |
+| Any other combination | — | Computer Wins |
 
 ## 📂 Project Structure
 
 ```text
 rock-paper-scissors/
-│
 ├── index.html
 ├── style.css
 ├── script.js
@@ -70,4 +74,3 @@ rock-paper-scissors/
 ├── paper.png
 ├── scissors.png
 └── README.md
-```
